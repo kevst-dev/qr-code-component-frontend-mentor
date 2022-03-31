@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* ---- Fonts ---- */
+  --outfit: 'Outfit', sans-serif;
+
+  /* ---- Colors ---- */
+
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  font-family: var(--outfit);
+  font-size: 15px;
+}
+
+.container {
+  background-color: var(--light-gray);
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---- Card ---- */
+.card {
+  background-color: var(--white);
+  width: 85%;
+  max-width: 320px;
+  border-radius: 1.5rem;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+/* Img QR */
+.card__img-qr {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+/* Title */
+.card__title {
+  color: var(--dark-blue);
+  margin-top: .5em;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* Paragraph */
+.card__paragraph {
+  width: 80%;
+  color: var(--grayish-blue);
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
