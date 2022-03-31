@@ -22,8 +22,8 @@ Mobile view:
 
 ### Links
 
-- Solution URL: [here](https://github.com/kevst-dev/interactive-rating-frontend-mentor)
-- Live Site URL: [here](https://kevst-dev.github.io/interactive-rating-frontend-mentor/)
+- Solution URL: [here](https://github.com/kevst-dev/qr-code-component-frontend-mentor)
+- Live Site URL: [here](https://kevst-dev.github.io/qr-code-component-frontend-mentor/)
 
 ## My process
 
